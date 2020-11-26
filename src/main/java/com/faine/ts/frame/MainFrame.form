@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.faine.ts.frame.MainFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="7" y="7" width="771" height="636"/>
+    </constraints>
+    <properties>
+      <background color="-7304513"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="d1fdb" binding="topPanel" layout-manager="FlowLayout" hgap="30" vgap="30" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-9469522"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ad3e6" class="javax.swing.JButton" binding="院系管理Button">
+            <constraints/>
+            <properties>
+              <text value="院系管理"/>
+            </properties>
+          </component>
+          <component id="c1e63" class="javax.swing.JButton" binding="班级管理Button">
+            <constraints/>
+            <properties>
+              <text value="班级管理"/>
+            </properties>
+          </component>
+          <component id="7803c" class="javax.swing.JButton" binding="学生管理Button">
+            <constraints/>
+            <properties>
+              <text value="学生管理"/>
+            </properties>
+          </component>
+          <component id="1206c" class="javax.swing.JButton" binding="奖惩管理Button">
+            <constraints/>
+            <properties>
+              <text value="奖惩管理"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="16f9f" binding="centerPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-8424001"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="ed2a7" binding="departmentPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <background color="-8631570"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="d6bba" binding="classPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties>
+              <background color="-7304513"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="5517b" binding="studentPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties>
+              <background color="-9469522"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="fcd43" binding="rewardPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="Card4"/>
+            </constraints>
+            <properties>
+              <background color="-8424001"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
