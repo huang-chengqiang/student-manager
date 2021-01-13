@@ -14,20 +14,20 @@ import java.util.UUID;
 public class AliOSSUtil {
     public static String ossUpload(File file){
 
-//        String bucketDomain ="https://siyuan-chen.oss-cn-shanghai.aliyuncs.com/";
+//        String bucketDomain ="";
 //        //Endpoint以杭州为例，其他的Region以实际为例
-//        String endpoint="http://oss-cn-shanghai.aliyuncs.com";
-//        String accessKeyId ="LTAI4GAZ2HqtB6DNR2tCzzDn";
-//        String accessKeySecret="PQHmjoqfrvkO9zpmqcT44vQXJDWHAc";
+//        String endpoint="";
+//        String accessKeyId ="";
+//        String accessKeySecret="";
 //        //BucketName
-//        String BucketName="siyuan-chen";
+//        String BucketName="";
 //        //目录名
 //        String fileDir ="student-manage/";
-        String bucketDomain ="https://cccsy.oss-cn-shanghai.aliyuncs.com/";
+        String bucketDomain ="";
         //Endpoint以杭州为例，其他的Region以实际为例
-        String endpoint="http://oss-cn-shanghai.aliyuncs.com";
-        String accessKeyId ="LTAI4FySG2jexQN2WDwBvK8W";
-        String accessKeySecret="e9N94KxWxiLrJgLIIVn1zd14zMdMJo";
+        String endpoint="";
+        String accessKeyId ="";
+        String accessKeySecret="";
         //BucketName
         String BucketName="cccsy";
         //目录名
